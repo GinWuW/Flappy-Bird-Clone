@@ -47,13 +47,16 @@ A basic Flappy Bird clone made with Unity 6. My first completed game project.
 
 Assets/
 ├── Scripts/
-│ ├── BirdMovement.cs # Jump logic, score, death state
-│ ├── SpawnManager.cs # Pipe spawning, difficulty scaling
-│ ├── DefeatManager.cs # Final score display
-│ └── MainMenuManager.cs # Scene switching
-├── Animations/ # Bird flight and death animations
-├── Sprites/ # Free asset store graphics
-└── Scenes/ # All game scenes
+│   ├── BirdMovement.cs         # Bird control: jump, physics, score, death state
+│   ├── Spawner.cs              # Pipe spawning, speed increases after 10 points
+│   ├── PipesMovement.cs        # Pipe movement to the left, stops on player death
+│   ├── PipeTriggerSetup.cs     # Trigger setup on pipes for scoring when bird passes through
+│   ├── GameManager.cs          # Scene switching, ESC to quit
+│   ├── StartMenu.cs            # Start button in the main menu
+│   └── TextDisappearing.cs     # Tutorial text disappears after the first click
+├── Animations/                 # Flight and death animations
+├── Sprites/                    # Graphics from Asset Store
+└── Scenes/                     # All game scenes
 
 ---
 
