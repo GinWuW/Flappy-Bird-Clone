@@ -23,6 +23,7 @@ A basic Flappy Bird clone made with Unity 6. My first completed game project.
 | Action | Key |
 |--------|-----|
 | Jump | Space / Left Mouse Button |
+| Restart | R |
 | Quit | ESC |
 
 ---
